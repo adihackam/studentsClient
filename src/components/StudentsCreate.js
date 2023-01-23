@@ -114,11 +114,11 @@ export default function StudentsCreate() {
                       label="Subject"
                       onChange={(e) => setSubject(e.target.value)}
                     >
-                      <MenuItem value={1}>Math</MenuItem>
+                      <MenuItem value={"Math"}>Math</MenuItem>
 
-                      <MenuItem value={2}> Science</MenuItem>
+                      <MenuItem value={"Science"}>Science</MenuItem>
 
-                      <MenuItem value={3}> English</MenuItem>
+                      <MenuItem value={"English"}>English</MenuItem>
                     </Select>
                   </FormControl>
                 </Grid>
